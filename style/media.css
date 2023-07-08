@@ -1,0 +1,303 @@
+@media (min-width: 1255px) {
+  .burger,
+  .mobile-menu {
+    display: none;
+  }
+}
+@media (max-width: 1255px) {
+  .container {
+    padding: 0 10px;
+  }
+  .right-buttons,
+  .header-bottom-bar {
+    display: none;
+  }
+
+  .switchers {
+    display: none;
+  }
+  .header-top-bar {
+    padding: 10px 0 10px;
+  }
+  .header-logo {
+    margin-left: 10px;
+  }
+  .link-list {
+    justify-content: center;
+  }
+  .title {
+    font-size: calc(14px + (52 - 14) * ((100vw - 320px) / (1380 - 320)));
+    margin-bottom: calc(15px + (100 - 15) * ((100vw - 320px) / (1380 - 320)));
+  }
+  .subtitle {
+    font-size: calc(14px + (30 - 14) * ((100vw - 320px) / (1380 - 320)));
+    margin-bottom: calc(14px + (32 - 14) * ((100vw - 320px) / (1380 - 320)));
+  }
+  .swiper-slide .custom-btn-blue {
+    width: calc(100px + (225 - 100) * ((100vw - 320px) / (1380 - 320)));
+    height: calc(25px + (50 - 25) * ((100vw - 320px) / (1380 - 320)));
+    padding: 0;
+  }
+  .custom-btn-blue span {
+    font-size: calc(10px + (14 - 10) * ((100vw - 320px) / (1380 - 320)));
+  }
+  .swiper-pagination-bullet {
+    width: calc(6px + (8 - 6) * ((100vw - 320px) / (1380 - 320))) !important;
+    height: calc(6px + (8 - 6) * ((100vw - 320px) / (1380 - 320))) !important;
+  }
+  .board-body {
+    padding: calc(20px + (110 - 20) * ((100vw - 320px) / (1380 - 320)));
+  }
+  .board-title {
+    font-size: calc(14px + (52 - 14) * ((100vw - 320px) / (1380 - 320)));
+    line-height: 1;
+  }
+  .board-text {
+    font-size: calc(14px + (24 - 14) * ((100vw - 320px) / (1380 - 320)));
+    line-height: 1;
+  }
+  .board-content {
+    margin: 0;
+  }
+}
+@media (max-width: 1140px) {
+  .link-list {
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .link-item {
+    width: 100%;
+    text-align: center;
+  }
+  .link {
+    padding-top: calc(14px + (24 - 14) * ((100vw - 320px) / (1380 - 320)));
+    padding-bottom: calc(14px + (24 - 14) * ((100vw - 320px) / (1380 - 320)));
+  }
+  .link:after {
+    width: 25%;
+    margin: 0 auto;
+    top: 15px;
+  }
+}
+@media (max-width: 1000px) {
+  .tariffs {
+    padding: calc(15px + (50 - 15) * ((100vw - 320px) / (1380 - 320)));
+  }
+  .tariffs-title h2,
+  .step-info h2,
+  .dark-step h2 {
+    font-size: calc(25px + (52 - 25) * ((100vw - 320px) / (1380 - 320)));
+  }
+  .tariffs-container {
+    padding: 0px;
+  }
+  .tariffs-block {
+    max-width: 100%;
+    margin: 0;
+    padding: 2px 15px 22px;
+  }
+  .tariffs-block h3,
+  .tariffs-value {
+    font-size: 18px;
+  }
+  .account-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .account-info,
+  .account-preview {
+    width: 100%;
+  }
+  .marker {
+    width: 100%;
+  }
+  .account-text,
+  .account h5 {
+    margin: 0 auto;
+    font-size: 14px;
+  }
+  .account h5 {
+    font-size: 16px;
+  }
+  .account .regular-btn {
+    height: 20px;
+    padding: 14px 14px;
+  }
+  .swiper {
+    margin-bottom: 20px;
+  }
+  .subtitle {
+    line-height: 1;
+    font-size: 12px;
+  }
+  .tariffs-list {
+    margin-top: 20px;
+  }
+  .tariffs-list li {
+    margin-bottom: 20px;
+  }
+  .step-info:before {
+    display: none;
+  }
+  .step-info {
+    line-height: 1;
+    margin-bottom: 5px;
+  }
+  .steps-body {
+    padding: 7px;
+  }
+  .dark-step h2 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+  .step {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .step img {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .step h5 {
+    font-size: 14px;
+    margin-top: 5px;
+    height: 60px;
+  }
+  .step-bar {
+    margin: 15px auto 0;
+  }
+  .board .marker {
+    display: none;
+  }
+  .board-content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .board-title,
+  .board-text {
+    max-width: 100%;
+    margin-top: 5px;
+  }
+  .board-footer .custom-btn-blue {
+    height: 0;
+    padding: 14px 14px;
+    margin-top: 10px;
+  }
+  .news-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .news {
+    margin: 15px 0 15px;
+  }
+  .news .title {
+    margin-bottom: 20px;
+  }
+  .news-item {
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 5px;
+    padding: 10px;
+  }
+  .news-date {
+    margin-bottom: 11px;
+  }
+  .news-title {
+    margin-top: 0;
+    line-height: 1;
+    margin-bottom: 10px;
+  }
+  .news-footer {
+    margin-top: 10px;
+  }
+  .footer-wrapper {
+    padding-top: 20px;
+  }
+  .footer-wrapper .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+  .footer-list {
+    width: 100%;
+    text-align: center;
+  }
+  .list-item {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .col {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .social-links {
+    justify-content: center;
+  }
+  .text-small {
+    text-align: center;
+  }
+  .buttons .regular-btn {
+    padding: 14px 14px;
+    height: 0;
+    justify-content: center;
+    margin: 0;
+  }
+  .buttons {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .buttons .regular-btn span{
+    font-size: 14px;
+  }
+  .footnote{
+    width: 100%;
+    margin: 24px auto 24px;
+    text-align: center;
+  }
+}
+@media (max-width: 515px) {
+  .header-email-center-wrapper {
+    display: none;
+  }
+  .link:after {
+    width: 100%;
+  }
+  .tariffs-list li {
+    font-size: 13px;
+  }
+  .tariffs .custom-btn-blue {
+    height: 0;
+  }
+  .tariffs .custom-btn-blue span {
+    font-size: 14px;
+  }
+  .tariffs-list {
+    margin-top: 10px;
+  }
+  .tariffs-list li {
+    margin-bottom: 10px;
+  }
+  .tariffs-block img {
+    display: none;
+  }
+  .container {
+    padding: 0 5px;
+  }
+  .step h5 {
+    font-size: 10px;
+  }
+  .step-bar .custom-btn-blue {
+    padding: 14px 14px;
+    height: 30px;
+  }
+  .step-bar .custom-btn-blue span {
+    font-size: 10px;
+  }
+}
